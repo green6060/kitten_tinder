@@ -56,7 +56,7 @@ class Home extends Component {
               <Button basic onClick={() => this.upvote(cat.id)}>
                 <Icon name="thumbs up" />
               </Button>
-                <Button basic onClick={() => this.downVote(id)}>
+                <Button basic onClick={() => this.downVote(cat.id)}>
                   <Icon name="thumbs down" />
                 </Button>
               </Card.Content>
